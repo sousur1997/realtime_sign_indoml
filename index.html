@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Display</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+        #pdf-viewer {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <iframe id="pdf-viewer" src="DetailedWork.pdf" type="application/pdf">
+        <p>It appears your browser doesn't support embedded PDFs. 
+           You can <a href="DetailedWork.pdf">download the PDF</a> instead.</p>
+    </iframe>
+</body>
+</html>
